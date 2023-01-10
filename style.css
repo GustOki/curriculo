@@ -1,0 +1,18 @@
+@import url(styles/containerprincipal.css);
+@import url(styles/containerconteudo.css);
+
+:root {
+    --fonte: "Roboto";
+    --branco: #FFFFFF;
+    --azul: #0066b4;
+    --preto: #000000;
+    --info-bg: #f1f1f1;
+}
+
+body {
+    background-image: url(./img/bg.jpg);
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--branco);
+}
