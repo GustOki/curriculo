@@ -1,18 +1,23 @@
-@import url(styles/containerprincipal.css);
-@import url(styles/containerconteudo.css);
+@import url(styles/principal.css);
+@import url(styles/conteudo.css);
+@import url(styles/formacao.css);
 
 :root {
+    --bg: url(./img/bg.jpg);
     --fonte: "Roboto";
-    --branco: #FFFFFF;
+    --branco: #FCFCFC;
     --azul: #0066b4;
+    --azul-claro: #2a94e6;
     --preto: #000000;
     --info-bg: #f1f1f1;
     --laranja: #EB9B00;
-    --cinza-claro: #858585
+    --laranja-escuro: #FF4500;
+    --cinza-claro: #858585;
+    --amarelo: #FFD700;
 }
 
 body {
-    background-image: url(./img/bg.jpg);
+    background-image: var(--bg);
     font-family: var(--fonte);
     font-size: 14px;
     font-weight: 400;

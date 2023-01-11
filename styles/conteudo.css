@@ -1,17 +1,17 @@
-.conteudo {
+.informacoes {
     padding: 5em 0 3em 0;
     background-color: var(--branco);
     text-align: center;
     color: var(--preto);
 }
 
-.info__titulo {
+.titulo {
     font-size: 3em;
     font-weight: 700;
     margin: 0;
 }
 
-.info__lista {
+.lista {
     padding: 3em;
 }
 
@@ -21,6 +21,10 @@
     padding: 0 1em;
     margin: 0 0 0 -4px;
     vertical-align: top;
+    transition: 0.5s;
+}
+
+#icon__border {
     border-right: 2px solid var(--cinza-claro);
 }
 
